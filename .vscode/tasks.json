@@ -1,0 +1,29 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Tourist Recommendation Frontend",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"--prefix",
+				"tailwind-project",
+				"run",
+				"dev"
+			],
+			"isBackground": true
+		},
+		{
+			"label": "Run Tourist Recommendation API",
+			"type": "shell",
+			"command": "npm",
+			"args": [
+				"--prefix",
+				"services/tourist-recommendation-api",
+				"run",
+				"dev"
+			],
+			"isBackground": true
+		}
+	]
+}
